@@ -69,7 +69,7 @@ class Utils
         if ($img) {
             $url = '<img src="' . $url . '"';
             foreach ($atts as $key => $val) {
-                $url .= ' ' . $key . '="' . $val . '"';
+                $url = $host[2];
             }
             $url .= ' />';
         }
